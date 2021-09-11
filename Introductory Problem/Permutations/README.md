@@ -15,3 +15,5 @@ example
     contenated list 2 4 6 1 3 5 7 <-required answer 
 ```
 always place even list before odd list for solving edge cases. 
+
+time - O(n)

@@ -15,3 +15,5 @@ the question can be rephrased as given N natural numbers make a subset that adds
 Imagine the approach as a bag whose capacity is sum/2. Now start from biggest number and place them inside the bag. if it's not possible to include that number that simpley skip it. 
 
 while doing this process keep track of which numbers were added in a list. 
+
+time - O(1)
