@@ -31,4 +31,8 @@ Bottom up
 
     finally print dp[n].
 
+Complexity 
+
+    From bottom up approach we can easily infer that solution is O(nk) complexity with space O(n).
+
 
