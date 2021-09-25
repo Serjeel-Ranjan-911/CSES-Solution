@@ -16,7 +16,7 @@ Recurrence Relation
 
 Memoization
 
-    The O(2^n) complexity can be reduced to O(n*w) if we use a matrix of size nXwt to memoize it. However there are some problems here. THE CONSTRAINTS n<=10^3 and wt<=10^5 therefore O(10^8) space is not good (which I tried to minimized using dictionary in python).but 10^8 time is no good for python :(.   
+    The O(2^n) complexity can be reduced to O(n*w) if we use a matrix of size nXwt to memoize it. However there are some problems here. THE CONSTRAINTS n<=10^3 and wt<=10^5 therefore O(10^8) space is not good plus 10^8 time is no good for python :(.   
 
 Hence we require to optimize the memory. But before that let's see bottum up solution
 
@@ -26,4 +26,4 @@ Hence we require to optimize the memory. But before that let's see bottum up sol
 
 time - O(n*x) space - O(x)
 
-NOTE:- python solution is TLE mostly because slow input methods. 
+NOTE:- python solution is TLE since 10^8 input is very huge for python(it took 150 seconds to execute the bigger test cases). 
