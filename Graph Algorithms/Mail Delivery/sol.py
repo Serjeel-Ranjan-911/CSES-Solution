@@ -17,7 +17,7 @@ flag = True
 visited = [False]*(n+1)
 visited[0] = True
  
-def bfs(node):
+def dfs(node):
     stack = deque()
     stack.append(node)
     while len(stack)>0:
@@ -32,7 +32,7 @@ for x in degree: #odd degree check
     if x&1 == 1:
         flag = False
         break
-bfs(1)
+dfs(1)
 for i in range(1,n+1): #connected component check
     if degree[i] != 0 and not(visited[i]):
         flag = False
